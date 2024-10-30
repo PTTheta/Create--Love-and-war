@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "item": "createloveandwar:barrel_iron"
+    },
+    "U": {
+      "item": "createloveandwar:bolt_action_tungsten"
+    },
+    "L": {
+      "item": "createloveandwar:lower_receiver_iron"
+    },
+    "S": {
+      "item": "createloveandwar:stock_wood"
+    },
+    "H": {
+      "item": "createloveandwar:handguard_wood"
+    },
+    "S": {
+      "item": "createloveandwar:optical_scope"
+    }
+  },
+  "pattern": [
+    "  S ",
+    "BHU ",
+    "  LS"
+  ],
+  "result": {
+    "item": "createloveandwar:lebel_scope"
+  },
+  "show_notification": true
+}

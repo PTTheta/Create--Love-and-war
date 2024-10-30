@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "createloveandwar:diesel",
+    "createloveandwar:gasoline",
+    "createloveandwar:flowing_diesel",
+    "createloveandwar:flowing_gasoline",
+    "createloveandwar:diesel_bucket",
+    "createloveandwar:gasoline_bucket"
+  ]
+}

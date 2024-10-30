@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluidTag": "forge:kerosene"
+    },
+    {
+      "item": "createloveandwar:catalyst"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "createloveandwar:ethylene"
+    },
+    {
+      "item": "createloveandwar:catalyst"
+    }
+  ]
+}

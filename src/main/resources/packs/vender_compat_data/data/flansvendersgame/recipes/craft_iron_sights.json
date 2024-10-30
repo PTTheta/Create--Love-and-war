@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "forge:nuggets/iron"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "I I",
+    " P ",
+    "   "
+  ],
+  "result": {
+    "item": "flansvendersgame:fc_diamond_sights"
+  },
+  "show_notification": true
+}

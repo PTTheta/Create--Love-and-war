@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createloveandwar:duraplas_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "createloveandwar:duraplas_sheet"
+    }
+  ]
+}

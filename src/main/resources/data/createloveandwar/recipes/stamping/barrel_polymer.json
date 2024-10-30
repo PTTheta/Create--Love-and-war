@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "item": "createloveandwar:polymer_sheet"
+  },
+  "template": {
+    "item": "createloveandwar:template_barrel"
+  },
+  "result": {
+    "item": "createloveandwar:barrel_polymer",
+    "count": 1
+  }
+}

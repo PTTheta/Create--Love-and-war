@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "item": "createloveandwar:tungsten_sheet"
+  },
+  "template": {
+    "item": "createloveandwar:template_bolt_action"
+  },
+  "result": {
+    "item": "createloveandwar:bolt_action_tungsten",
+    "count": 1
+  }
+}

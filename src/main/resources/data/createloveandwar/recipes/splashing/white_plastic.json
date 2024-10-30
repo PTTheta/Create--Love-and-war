@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "createloveandwar:plastic"
+    }
+  ],
+  "results": [
+    {
+      "item": "createloveandwar:white_plastic"
+    }
+  ]
+}

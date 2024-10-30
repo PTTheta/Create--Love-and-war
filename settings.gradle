@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = 'MinecraftForge'
+            url = 'https://maven.minecraftforge.net/'
+        }
+        maven { url = 'https://maven.parchmentmc.org' } // Add this line
+        maven { url = uri("https://repo.spongepowered.org/repository/maven-public/") }
+        maven {
+            url = uri("C:\\Users\\mfauv\\Desktop\\Modding\\Maven")
+        }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.5.0'
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createloveandwar:pistol_casing"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "results": [
+    {
+      "item": "createloveandwar:filled_pistol_casing"
+    }
+  ]
+}

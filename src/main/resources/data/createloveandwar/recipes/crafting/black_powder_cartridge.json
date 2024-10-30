@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/iron"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "createloveandwar:black_powder_cartridge"
+  }
+}

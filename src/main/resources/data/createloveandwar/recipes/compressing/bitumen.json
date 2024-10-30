@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "createloveandwar:bitumen_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "count": 32,
+      "item": "createloveandwar:bitumen"
+    }
+  ]
+}

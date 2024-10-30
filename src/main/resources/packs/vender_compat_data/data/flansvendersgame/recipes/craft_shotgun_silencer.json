@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "createloveandwar:barrel_iron"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "PP ",
+    "P I",
+    "PP "
+  ],
+  "result": {
+    "item": "flansvendersgame:phantek_shotgun_silencer"
+  },
+  "show_notification": true
+}

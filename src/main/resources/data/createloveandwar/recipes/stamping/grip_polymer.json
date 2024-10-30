@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "item": "createloveandwar:polymer_sheet"
+  },
+  "template": {
+    "item": "createloveandwar:template_grip"
+  },
+  "result": {
+    "item": "createloveandwar:grip_polymer",
+    "count": 1
+  }
+}

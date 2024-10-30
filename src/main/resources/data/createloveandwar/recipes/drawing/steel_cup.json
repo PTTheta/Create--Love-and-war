@@ -1,0 +1,10 @@
+{
+  "type":"createloveandwar:drawing",
+  "input": {
+    "tag": "forge:plates/steel"
+  },
+  "result": {
+    "item": "createloveandwar:steel_cup",
+    "count": 2
+  }
+}

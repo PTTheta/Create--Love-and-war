@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "amount": 250,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "createloveandwar:bitumen_fluid"
+    }
+  ]
+}

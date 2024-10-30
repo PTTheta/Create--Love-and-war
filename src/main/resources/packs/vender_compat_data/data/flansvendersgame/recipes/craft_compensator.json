@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "createloveandwar:barrel_iron"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "P  ",
+    "  I",
+    "P  "
+  ],
+  "result": {
+    "item": "flansvendersgame:fc_deluxe_compensator"
+  },
+  "show_notification": true
+}

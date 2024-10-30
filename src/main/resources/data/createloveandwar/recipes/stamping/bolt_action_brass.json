@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "tag": "forge:plates/brass"
+  },
+  "template": {
+    "item": "createloveandwar:template_bolt_action"
+  },
+  "result": {
+    "item": "createloveandwar:bolt_action_brass",
+    "count": 1
+  }
+}

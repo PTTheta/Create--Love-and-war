@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createloveandwar:white_plastic"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "createloveandwar:purple_plastic"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createloveandwar:filled_grenade_casing"
+    },
+    {
+      "item": "createloveandwar:ball_bearings"
+    }
+  ],
+  "results": [
+    {
+      "item": "createloveandwar:grenade_round_buckshot"
+    }
+  ]
+}

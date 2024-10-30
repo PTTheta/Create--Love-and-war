@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createloveandwar:deepslate_tungsten_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "createloveandwar:raw_tungsten"
+    },
+    {
+      "chance": 0.75,
+      "item": "createloveandwar:raw_tungsten"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:deepslate"
+    }
+  ]
+}

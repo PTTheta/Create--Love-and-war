@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "forge:plates/brass"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    " BI",
+    " RI",
+    " BI"
+  ],
+  "result": {
+    "item": "createloveandwar:thermostat"
+  },
+  "show_notification": true
+}

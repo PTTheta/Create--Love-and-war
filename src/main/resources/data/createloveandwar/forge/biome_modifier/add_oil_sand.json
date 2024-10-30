@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_desert",
+  "features": "createloveandwar:oil_sand_placed",
+  "step": "underground_ores"
+}

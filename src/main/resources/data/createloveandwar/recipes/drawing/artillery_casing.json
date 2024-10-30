@@ -1,0 +1,10 @@
+{
+  "type":"createloveandwar:drawing",
+  "input": {
+    "item": "createloveandwar:grenade_casing"
+  },
+  "result": {
+    "item": "createloveandwar:artillery_casing",
+    "count": 1
+  }
+}

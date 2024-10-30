@@ -1,0 +1,54 @@
+{
+  "type": "createloveandwar:add_item",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "createloveandwar:robot_dog_bubblegum_skin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "createloveandwar:robot_dog_racing_skin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "createloveandwar:em2blueprint"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "createloveandwar:mas62blueprint"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "createloveandwar:stg57blueprint"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "createloveandwar:robot_dog_valkyrie_skin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "createloveandwar:ammopouch"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "create:brass_ingot"
+        }
+      ]
+    }
+  ]
+}

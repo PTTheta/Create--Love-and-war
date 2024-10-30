@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createloveandwar:sulphur_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "createloveandwar:raw_sulphur"
+    },
+    {
+      "chance": 0.75,
+      "item": "createloveandwar:raw_sulphur"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}

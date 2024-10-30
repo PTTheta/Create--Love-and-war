@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "tag": "forge:plates/iron"
+  },
+  "template": {
+    "item": "createloveandwar:template_bolt_action"
+  },
+  "result": {
+    "item": "createloveandwar:bolt_action_iron",
+    "count": 1
+  }
+}

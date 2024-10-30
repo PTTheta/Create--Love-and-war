@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "item": "createloveandwar:polymer_sheet"
+  },
+  "template": {
+    "item": "createloveandwar:template_revolver_action"
+  },
+  "result": {
+    "item": "createloveandwar:revolver_action_polymer",
+    "count": 1
+  }
+}

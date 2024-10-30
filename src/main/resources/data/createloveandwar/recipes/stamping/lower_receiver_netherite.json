@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "tag": "forge:plates/netherite"
+  },
+  "template": {
+    "item": "createloveandwar:template_lower_receiver"
+  },
+  "result": {
+    "item": "createloveandwar:lower_receiver_netherite",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "acceptMirrored": false,
+  "key": {
+    "M": {
+      "item": "createloveandwar:martinicarbine"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "M",
+    "I",
+    "I"
+  ],
+  "result": {
+    "item": "createloveandwar:martini_repeater"
+  },
+  "show_notification": true
+}

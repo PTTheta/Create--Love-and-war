@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "createloveandwar:diesel",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "createloveandwar:fuel_pellet"
+    }
+  ]
+}

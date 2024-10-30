@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "item": "createloveandwar:slime_resin_sheet"
+  },
+  "template": {
+    "item": "createloveandwar:template_bolt_action"
+  },
+  "result": {
+    "item": "createloveandwar:bolt_action_resin",
+    "count": 1
+  }
+}

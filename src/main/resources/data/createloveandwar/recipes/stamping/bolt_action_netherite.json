@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "tag": "forge:plates/netherite"
+  },
+  "template": {
+    "item": "createloveandwar:template_bolt_action"
+  },
+  "result": {
+    "item": "createloveandwar:bolt_action_netherite",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "item": "createloveandwar:tungsten_sheet"
+  },
+  "template": {
+    "item": "createloveandwar:template_lower_receiver"
+  },
+  "result": {
+    "item": "createloveandwar:lower_receiver_tungsten",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "item": "createloveandwar:duraplas_sheet"
+  },
+  "template": {
+    "item": "createloveandwar:template_stock"
+  },
+  "result": {
+    "item": "createloveandwar:stock_duraplas",
+    "count": 1
+  }
+}

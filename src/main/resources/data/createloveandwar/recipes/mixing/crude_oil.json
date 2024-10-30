@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "createloveandwar:tar_clump"
+    },
+    {
+      "amount": 250,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "createloveandwar:crude_oil"
+    }
+  ]
+}

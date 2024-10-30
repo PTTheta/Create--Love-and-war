@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "tag": "forge:plates/iron"
+  },
+  "template": {
+    "item": "createloveandwar:template_grip"
+  },
+  "result": {
+    "item": "createloveandwar:grip_iron",
+    "count": 1
+  }
+}

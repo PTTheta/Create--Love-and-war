@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "tag": "forge:plates/steel"
+  },
+  "template": {
+    "item": "createloveandwar:template_revolver_action"
+  },
+  "result": {
+    "item": "createloveandwar:revolver_action_steel",
+    "count": 1
+  }
+}

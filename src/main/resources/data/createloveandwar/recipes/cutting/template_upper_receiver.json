@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient":
+  {
+    "tag": "forge:plates/iron"
+  },
+  "result": "createloveandwar:template_upper_receiver"
+}

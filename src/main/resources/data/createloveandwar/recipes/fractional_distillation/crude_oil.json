@@ -1,0 +1,29 @@
+{
+  "type": "createloveandwar:fractional_distillation",
+  "ingredients": [
+    {
+      "fluidTag": "forge:crude_oil",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "createloveandwar:bitumen_fluid",
+      "amount": 25
+    },
+    {
+      "fluid": "createloveandwar:diesel",
+      "amount": 25
+    },
+    {
+      "fluid": "createloveandwar:kerosene",
+      "amount": 25
+    },
+    {
+      "fluid": "createloveandwar:ethylene",
+      "amount": 25
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "createloveandwar:polymer_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "SS "
+  ],
+  "result": {
+    "item": "createloveandwar:white_plastic",
+    "count": 32
+  },
+  "show_notification": true
+}

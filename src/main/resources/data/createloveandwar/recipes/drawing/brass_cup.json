@@ -1,0 +1,10 @@
+{
+  "type":"createloveandwar:drawing",
+  "input": {
+    "tag": "forge:plates/brass"
+  },
+  "result": {
+    "item": "createloveandwar:brass_cup",
+    "count": 4
+  }
+}
