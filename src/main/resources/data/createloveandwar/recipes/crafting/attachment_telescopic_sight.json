@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "createloveandwar:optical_scope"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "   ",
+    " O ",
+    " II"
+  ],
+  "result": {
+    "item": "createloveandwar:attachment_telescopic_sight"
+  },
+  "show_notification": true
+}

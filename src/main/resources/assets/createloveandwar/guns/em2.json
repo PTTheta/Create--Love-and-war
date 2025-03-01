@@ -219,6 +219,15 @@
           "itemStack": "",
           "scopeOverlay": "",
           "anim": "shoot"
+        },
+        {
+          "actionType": "EjectCasing",
+          "delay" : 1,
+          "duration": 1.5,
+          "sounds": [],
+          "itemStack": "",
+          "scopeOverlay": "",
+          "anim": "shoot"
         }
       ],
       "modifiers": [
@@ -228,7 +237,7 @@
           "accumulators": [
             {
               "operation": "BaseAdd",
-              "value": 6.0,
+              "value": 6.5,
               "multiplyPer": []
             }
           ],
@@ -269,6 +278,28 @@
             }
           ],
           "setValue": "createloveandwar:effects/muzzle_flash"
+        },
+        {
+          "stat": "casing_eject_point",
+          "matchGroupPaths": [],
+          "accumulators": [],
+          "setValue": "casing_eject"
+        },
+        {
+          "stat": "casing_eject_direction",
+          "matchGroupPaths": [],
+          "accumulators": [],
+          "setValue": "casing_eject_direction"
+        },
+        {
+          "stat": "casing_eject_speed",
+          "matchGroupPaths": [],
+          "accumulators": [                      {
+            "operation": "BaseAdd",
+            "value": 0.5,
+            "multiplyPer": []
+          }],
+          "setValue": ""
         }
       ]
     },
@@ -601,7 +632,7 @@
   "scopeAttachments": {
     "matchNames": [],
     "matchTags": [],
-    "numAttachmentSlots": 0,
+    "numAttachmentSlots": 1,
     "hideDefaultMesh": true
   },
   "genericAttachments": {
@@ -611,5 +642,6 @@
     "hideDefaultMesh": true
   },
   "modelParts": [],
-  "animationSet": "createloveandwar:ar_bullpup"
+  "animationSet": "createloveandwar:ar_bullpup",
+  "casingModel": "flansmod:effects/casing_rifle"
 }

@@ -19,5 +19,6 @@
             }
         ],
         "materialFilters": []
-    }
+    },
+    "ejectCasings": false
 }

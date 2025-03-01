@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/iron"
+    },
+    "G": {
+      "item": "createloveandwar:grip_wood"
+    }
+  },
+  "pattern": [
+    " N ",
+    " G ",
+    "   "
+  ],
+  "result": {
+    "item": "createloveandwar:attachment_wood_grip"
+  },
+  "show_notification": true
+}

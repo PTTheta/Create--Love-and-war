@@ -1,6 +1,6 @@
 package net.pttheta.loveandwar.entity.custom;
 
-import com.simibubi.create.foundation.utility.VecHelper;
+import net.createmod.catnip.math.VecHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
@@ -22,25 +22,23 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.behavior.LookAtTargetSink;
 import net.minecraft.world.entity.ai.goal.*;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtTargetGoal;
 import net.minecraft.world.entity.animal.Animal;
-import net.minecraft.world.entity.animal.Fox;
-import net.minecraft.world.entity.animal.Pig;
-import net.minecraft.world.entity.animal.Wolf;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.monster.AbstractSkeleton;
-import net.minecraft.world.entity.monster.Phantom;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.DispenserMenu;
-import net.minecraft.world.item.*;
+import net.minecraft.world.item.DyeItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
@@ -53,10 +51,7 @@ import net.pttheta.loveandwar.item.ModItems;
 import net.pttheta.loveandwar.sound.ModSounds;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.EnumSet;
-import java.util.List;
-import java.util.Objects;
-import java.util.UUID;
+import java.util.*;
 
 public class RobotdogEntity extends TamableAnimal implements NeutralMob, ContainerListener {
     public static final EntityDataAccessor<Boolean> ATTACKING =
@@ -71,6 +66,7 @@ public class RobotdogEntity extends TamableAnimal implements NeutralMob, Contain
 
 
     public static final TagKey<Item> bulletTag = ItemTags.create(new ResourceLocation("flansmod", "pistol_bullet"));
+    public static final TagKey<Item> casingTag = ItemTags.create(new ResourceLocation("createloveandwar", "bullet_casing"));
     public SimpleContainer dogInventory;
     public RobotdogEntity(EntityType<? extends TamableAnimal> pEntityType, Level pLevel) {
         super(pEntityType, pLevel);
@@ -94,6 +90,7 @@ public class RobotdogEntity extends TamableAnimal implements NeutralMob, Contain
     private UUID persistentAngerTarget;
     protected SimpleContainer inventory;
     private net.minecraftforge.common.util.LazyOptional<?> itemHandler = null;
+
 
     @Override
     public void tick() {
@@ -203,7 +200,6 @@ public class RobotdogEntity extends TamableAnimal implements NeutralMob, Contain
         SimpleContainer animalchest = this.dogInventory;
         this.dogInventory = new SimpleContainer(9) {
             public void stopOpen(Player player) {
-                //EntityKangaroo.this.entityData.set(POUCH_TICK, 10);
                 RobotdogEntity.this.resetSlots();
             }
 
@@ -771,13 +767,22 @@ public class RobotdogEntity extends TamableAnimal implements NeutralMob, Contain
          */
         public void tick() {
             List<ItemEntity> list = RobotdogEntity.this.level().getEntitiesOfClass(ItemEntity.class, RobotdogEntity.this.getBoundingBox().inflate(8.0D, 8.0D, 8.0D));
-            //ItemStack itemstack = RobotdogEntity.this.dogInventory.canAddItem(RobotdogEntity);
-            if (!list.isEmpty()) {
-                if(RobotdogEntity.this.dogInventory.canAddItem(list.get(0).getItem())) {
-                    RobotdogEntity.this.getNavigation().moveTo(list.get(0), (double) 1.2F);
 
-                    if(distanceToSqr(list.get(0)) <= 2){
-                        RobotdogEntity.this.pickUpItem(list.get(0));
+            ArrayList<ItemEntity> bulletList = new ArrayList<ItemEntity>();
+
+            for(ItemEntity e : list){
+                if(e.getItem().is(casingTag)){
+                    bulletList.add(e);
+                }
+            }
+
+            //ItemStack itemstack = RobotdogEntity.this.dogInventory.canAddItem(RobotdogEntity);
+            if (!bulletList.isEmpty()) {
+                if(RobotdogEntity.this.dogInventory.canAddItem(bulletList.get(0).getItem())) {
+                    RobotdogEntity.this.getNavigation().moveTo(bulletList.get(0), (double) 1.2F);
+
+                    if(distanceToSqr(bulletList.get(0)) <= 2){
+                        RobotdogEntity.this.pickUpItem(bulletList.get(0));
                     }
                 }
             }

@@ -163,7 +163,7 @@
             "canBeOverriden": true,
             "twoHanded": true,
             "repeatMode": "BurstFire",
-            "repeatDelay": 0.028,
+            "repeatDelay": 0.055,
             "repeatCount": 3,
             "spinUpDuration": 1.5,
             "loudness": 150.0,
@@ -171,7 +171,7 @@
             "actions": [
                 {
                     "actionType": "Shoot",
-                    "duration": 0.028,
+                    "duration": 0.055,
                     "sounds": [],
                     "itemStack": "",
                     "scopeOverlay": "",

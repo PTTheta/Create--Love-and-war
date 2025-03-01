@@ -88,8 +88,8 @@
                     ]
                 }
             ],
-            "launchSpeed": 9.0,
-            "gravityFactor": 0.1,
+            "launchSpeed": 6.0,
+            "gravityFactor": 1,
             "sticky": false,
             "fuseTime": 0.0,
             "turnRate": 0.0,
@@ -97,7 +97,10 @@
             "airParticles": "",
             "dragInWater": 0.0,
             "waterParticles": "",
-            "timeBetweenTrailParticles": 0.0
+            "timeBetweenTrailParticles": 0.0,
+            "responseToBlock": "Detonate",
+            "responseToEntity": "Detonate",
+            "responseToVehicle": "Detonate"
         }
     ],
     "triggers": [],

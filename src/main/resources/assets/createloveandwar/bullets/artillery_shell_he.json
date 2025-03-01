@@ -15,7 +15,7 @@
             "penetrationPower": 25.0,
             "impacts": [
                 {
-                    "targetType": "ShotBlock",
+                    "targetType": "ShotPosition",
                     "impactEffects": [
                         {
                             "effectType": "Explode",
@@ -26,87 +26,7 @@
                                     "accumulators": [
                                         {
                                             "operation": "BaseAdd",
-                                            "value": 4.0,
-                                            "multiplyPer": []
-                                        }
-                                    ],
-                                    "setValue": ""
-                                }
-                            ]
-                        },
-                        {
-                            "effectType": "ApplyDamage",
-                            "modifiers": [
-                                {
-                                    "stat": "impact_damage",
-                                    "matchGroupPaths": [],
-                                    "accumulators": [
-                                        {
-                                            "operation": "StackablePercentage",
-                                            "value": 100.0,
-                                            "multiplyPer": []
-                                        }
-                                    ],
-                                    "setValue": ""
-                                },
-                                {
-                                    "stat": "knockback",
-                                    "matchGroupPaths": [],
-                                    "accumulators": [
-                                        {
-                                            "operation": "BaseAdd",
-                                            "value": 25.0,
-                                            "multiplyPer": []
-                                        }
-                                    ],
-                                    "setValue": ""
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "targetType": "ShotEntity",
-                    "impactEffects": [
-                        {
-                            "effectType": "Explode",
-                            "modifiers": [
-                                {
-                                    "stat": "explosion_radius",
-                                    "matchGroupPaths": [],
-                                    "accumulators": [
-                                        {
-                                            "operation": "BaseAdd",
-                                            "value": 4.0,
-                                            "multiplyPer": []
-                                        }
-                                    ],
-                                    "setValue": ""
-                                }
-                            ]
-                        },
-                        {
-                            "effectType": "ApplyDamage",
-                            "modifiers": [
-                                {
-                                    "stat": "impact_damage",
-                                    "matchGroupPaths": [],
-                                    "accumulators": [
-                                        {
-                                            "operation": "StackablePercentage",
-                                            "value": 100.0,
-                                            "multiplyPer": []
-                                        }
-                                    ],
-                                    "setValue": ""
-                                },
-                                {
-                                    "stat": "knockback",
-                                    "matchGroupPaths": [],
-                                    "accumulators": [
-                                        {
-                                            "operation": "BaseAdd",
-                                            "value": 25.0,
+                                            "value": 5.0,
                                             "multiplyPer": []
                                         }
                                     ],
@@ -117,8 +37,32 @@
                     ]
                 }
             ],
-            "launchSpeed": 25.0,
+            "guidanceType": "none",
+            "launchSpeed": 8,
             "gravityFactor": 0.1,
+            "particleTrails": [
+                {
+                    "particle": "minecraft:poof",
+                    "speed": 1,
+                    "fromTick": 0,
+                    "toTick": 4,
+                    "spawnPoints": [
+                        "body"
+                    ]
+                },
+                {
+                    "particle": "minecraft:smoke",
+                    "speed": 0.3,
+                    "fromTick": 8,
+                    "spawnPoints": [
+                        "body",
+                        "body"
+                    ]
+                }
+            ],
+            "responseToBlock": "Detonate",
+            "responseToEntity": "Detonate",
+            "responseToVehicle": "Detonate",
             "sticky": false,
             "fuseTime": 0.0,
             "turnRate": 0.0,

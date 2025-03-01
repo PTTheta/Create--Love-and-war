@@ -186,8 +186,8 @@
                 {
                     "applyTo": "ammo_0",
                     "position": [
-                        "-40",
-                        "40",
+                        "4",
+                        "-2",
                         "0"
                     ],
                     "rotation": [
@@ -248,8 +248,8 @@
                 {
                     "applyTo": "ammo_0",
                     "position": [
-                        "-40",
-                        "40",
+                        "4",
+                        "-2",
                         "0"
                     ],
                     "rotation": [

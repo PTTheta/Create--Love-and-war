@@ -24,7 +24,7 @@
                                     "accumulators": [
                                         {
                                             "operation": "StackablePercentage",
-                                            "value": -20.0,
+                                            "value": 0.0,
                                             "multiplyPer": []
                                         }
                                     ],
@@ -69,7 +69,7 @@
                     ]
                 }
             ],
-            "penetrationPower": 4.0
+            "penetrationPower": 6.0
         }
     ],
     "projectiles": [],

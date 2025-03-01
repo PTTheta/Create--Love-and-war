@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "minecraft:gunpowder"
+      "tag": "createloveandwar:propellant"
     },
     "I": {
       "item": "minecraft:iron_nugget"

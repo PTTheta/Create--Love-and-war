@@ -1,6 +1,6 @@
 {
     "itemSettings": {
-        "maxStackSize": 16,
+        "maxStackSize": 32,
         "tags": [
             "flansmod:bullet",
             "flansmod:shotgun_shell"

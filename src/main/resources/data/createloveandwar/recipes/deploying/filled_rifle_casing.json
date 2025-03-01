@@ -5,7 +5,7 @@
       "item": "createloveandwar:rifle_casing"
     },
     {
-      "item": "minecraft:gunpowder"
+      "tag": "createloveandwar:propellant"
     }
   ],
   "results": [

@@ -6996,6 +6996,20 @@
       ]
     },
     {
+      "name": "shoot_origin2",
+      "attachTo": "body",
+      "offset": [
+        -38.0,
+        4.75,
+        0.0
+      ],
+      "euler": [
+        0.0,
+        270.0,
+        0.0
+      ]
+    },
+    {
       "name": "ammo_1",
       "attachTo": "body",
       "offset": [
@@ -7005,6 +7019,35 @@
       ],
       "euler": [
         0.0,
+        0.0,
+        0.0
+      ]
+    },
+
+    {
+      "name": "casing_eject",
+      "attachTo": "body",
+      "offset": [
+        -35.5,
+        4.75,
+        0.0
+      ],
+      "euler": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "casing_eject_direction",
+      "attachTo": "casing_eject",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "euler": [
+        90.0,
         0.0,
         0.0
       ]

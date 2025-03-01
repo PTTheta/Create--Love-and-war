@@ -218,6 +218,45 @@
                     "itemStack": "",
                     "scopeOverlay": "",
                     "anim": "shoot"
+                },
+                {
+                    "actionType": "SpawnParticle",
+                    "id" : "_0",
+                    "duration": 0.05,
+                    "sounds": [],
+                    "itemStack": "",
+                    "scopeOverlay": "",
+                    "anim": "shoot"
+                },
+
+                {
+                    "actionType": "PlaySound",
+                    "delay" : 20,
+                    "duration": 0.0,
+                    "sounds": [
+                        {
+                            "sound": "flansmod:bullet_drop_tinkle",
+                            "length": 0.0,
+                            "minPitchMultiplier": 0.8333333,
+                            "maxPitchMultiplier": 1.25,
+                            "minVolume": 1.0,
+                            "maxVolume": 1.0,
+                            "maxRange": 100.0,
+                            "LODs": []
+                        }
+                    ],
+                    "itemStack": "",
+                    "scopeOverlay": "",
+                    "anim": ""
+                },
+                {
+                    "actionType": "EjectCasing",
+                    "delay" : 20,
+                    "duration": 1.5,
+                    "sounds": [],
+                    "itemStack": "",
+                    "scopeOverlay": "",
+                    "anim": "shoot"
                 }
             ],
             "modifiers": [
@@ -268,6 +307,109 @@
                         }
                     ],
                     "setValue": "createloveandwar:effects/muzzle_flash"
+                },
+
+                {
+                    "stat": "particle_attach_point",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "shoot_origin"
+                },
+                {
+                    "stat": "particle_type",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "minecraft:poof"
+                },
+                {
+                    "stat": "particle_spread",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 15.0,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": ""
+                },
+                {
+                    "stat": "particle_spread_pattern",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 15.0,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": "FilledCircle"
+                },
+                {
+                    "stat": "particle_speed",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 1,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": ""
+                },
+                {
+                    "stat": "particle_count",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 32.0,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": ""
+                },
+                {
+                    "stat": "particle_dispersion",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 0.5,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": ""
+                },
+
+                {
+                    "stat": "casing_eject_point",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "casing_eject"
+                },
+                {
+                    "stat": "casing_eject_direction",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "casing_eject_direction"
+                },
+                {
+                    "stat": "casing_eject_speed",
+                    "matchGroupPaths": [],
+                    "accumulators": [                      {
+                        "operation": "BaseAdd",
+                        "value": 0.5,
+                        "multiplyPer": []
+                    }],
+                    "setValue": ""
                 }
             ]
         },
@@ -599,5 +741,6 @@
     },
     "modelParts": [],
     "animationSet": "createloveandwar:vetterli",
-    "particleCount": 30
+    "particleCount": 2,
+    "casingModel": "flansmod:effects/casing_rifle"
 }

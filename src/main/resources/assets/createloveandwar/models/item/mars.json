@@ -2,8 +2,7 @@
     "loader": "flansmod:turborig",
     "textures": {
         "default": "createloveandwar:skins/mars",
-        "mars_brass": "createloveandwar:skins/mars_brass",
-        "particle": "minecraft:block/iron_block"
+        "mars_brass": "createloveandwar:skins/mars_brass"
     },
     "icons": {
         "default": "createloveandwar:item/mars",
@@ -2865,12 +2864,22 @@
                 0.0,
                 0.0,
                 0.0
+            ],
+            "euler": [
+                0.0,
+                0.0,
+                0.0
             ]
         },
         {
             "name": "slide",
             "attachTo": "body",
             "offset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "euler": [
                 0.0,
                 0.0,
                 0.0
@@ -2883,12 +2892,22 @@
                 0.0,
                 0.0,
                 0.0
+            ],
+            "euler": [
+                0.0,
+                0.0,
+                0.0
             ]
         },
         {
             "name": "break_action",
             "attachTo": "body",
             "offset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "euler": [
                 0.0,
                 0.0,
                 0.0
@@ -2942,6 +2961,39 @@
             "offset": [
                 0.0,
                 8.5,
+                0.0
+            ],
+            "euler": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "casing_eject",
+            "attachTo": "body",
+            "offset": [
+                2.0,
+                7.0,
+                0.0
+            ],
+            "euler": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "casing_eject_direction",
+            "attachTo": "casing_eject",
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "euler": [
+                -90.0,
+                0.0,
                 0.0
             ]
         }

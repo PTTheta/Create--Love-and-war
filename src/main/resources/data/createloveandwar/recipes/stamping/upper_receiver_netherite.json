@@ -1,7 +1,7 @@
 {
   "type":"createloveandwar:stamping",
   "input": {
-    "tag": "forge:plates/netherite"
+    "item": "createloveandwar:cut_netherite_sheet"
   },
   "template": {
     "item": "createloveandwar:template_upper_receiver"

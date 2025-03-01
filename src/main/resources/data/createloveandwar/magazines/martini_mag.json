@@ -19,5 +19,6 @@
             }
         ],
         "materialFilters": []
-    }
+    },
+    "spawnBulletCasing": "createloveandwar:rifle_casing"
 }

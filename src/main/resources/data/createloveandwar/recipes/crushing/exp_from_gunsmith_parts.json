@@ -1,0 +1,43 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createloveandwar:forgotten_gunsmith_parts"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "chance": 1,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 1,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 1,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 1,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 1,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 1,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 1,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 1,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "acceptMirrored": false,
+  "key": {
+    "P": {
+      "item": "createloveandwar:p53_enfield"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    " I ",
+    " P "
+  ],
+  "result": {
+    "item": "createloveandwar:snider_enfield"
+  },
+  "show_notification": true
+}

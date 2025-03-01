@@ -60,6 +60,26 @@
     ]
   },
 
+  "bullet_drop_large": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "createloveandwar:guns/bullet_drop_large",
+        "type": "file"
+      }
+    ]
+  },
+
+  "rocket_launch": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "createloveandwar:guns/rocket_launch",
+        "type": "file"
+      }
+    ]
+  },
+
   "cycle_bolt": {
     "category": "player",
     "sounds": [
@@ -95,6 +115,16 @@
     "sounds": [
       {
         "name": "createloveandwar:guns/gunshot_huge_cycle",
+        "type": "file"
+      }
+    ]
+  },
+
+  "gunshot_huge_cycle_2": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "createloveandwar:guns/gunshot_huge_cycle_2",
         "type": "file"
       }
     ]

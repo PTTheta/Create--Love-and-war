@@ -219,6 +219,15 @@
                     "itemStack": "",
                     "scopeOverlay": "",
                     "anim": "shoot"
+                },
+                {
+                    "actionType": "EjectCasing",
+                    "delay" : 1,
+                    "duration": 1.5,
+                    "sounds": [],
+                    "itemStack": "",
+                    "scopeOverlay": "",
+                    "anim": "shoot"
                 }
             ],
             "modifiers": [
@@ -269,6 +278,28 @@
                         }
                     ],
                     "setValue": "createloveandwar:effects/muzzle_flash"
+                },
+                {
+                    "stat": "casing_eject_point",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "casing_eject"
+                },
+                {
+                    "stat": "casing_eject_direction",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "casing_eject_direction"
+                },
+                {
+                    "stat": "casing_eject_speed",
+                    "matchGroupPaths": [],
+                    "accumulators": [                      {
+                        "operation": "BaseAdd",
+                        "value": 0.5,
+                        "multiplyPer": []
+                    }],
+                    "setValue": ""
                 }
             ]
         },
@@ -605,5 +636,6 @@
         "hideDefaultMesh": true
     },
     "modelParts": [],
-    "animationSet": "createloveandwar:rifle_magazine_fed_linear"
+    "animationSet": "createloveandwar:rifle_magazine_fed_linear",
+    "casingModel": "createloveandwar:effects/casing_pistol"
 }

@@ -18,7 +18,7 @@
         },
         [
           {
-            "item": "minecraft:gunpowder"
+            "tag": "createloveandwar:propellant"
           }
         ]
       ],
@@ -36,7 +36,7 @@
         },
         [
           {
-            "item": "minecraft:gunpowder"
+            "tag": "createloveandwar:propellant"
           }
         ]
       ],
@@ -54,7 +54,7 @@
         },
         [
           {
-            "item": "minecraft:gunpowder"
+            "tag": "createloveandwar:propellant"
           }
         ]
       ],

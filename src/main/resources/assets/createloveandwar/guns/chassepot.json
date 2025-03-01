@@ -218,6 +218,15 @@
                     "itemStack": "",
                     "scopeOverlay": "",
                     "anim": "shoot"
+                },
+                {
+                    "actionType": "SpawnParticle",
+                    "id" : "_0",
+                    "duration": 0.05,
+                    "sounds": [],
+                    "itemStack": "",
+                    "scopeOverlay": "",
+                    "anim": "shoot"
                 }
             ],
             "modifiers": [
@@ -268,6 +277,85 @@
                         }
                     ],
                     "setValue": "createloveandwar:effects/muzzle_flash"
+                },
+                {
+                    "stat": "particle_attach_point",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "shoot_origin"
+                },
+                {
+                    "stat": "particle_type",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "minecraft:poof"
+                },
+                {
+                    "stat": "particle_spread",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 15.0,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": ""
+                },
+                {
+                    "stat": "particle_spread_pattern",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 15.0,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": "FilledCircle"
+                },
+                {
+                    "stat": "particle_speed",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 1,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": ""
+                },
+                {
+                    "stat": "particle_count",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 50.0,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": ""
+                },
+                {
+                    "stat": "particle_dispersion",
+                    "id": "_0",
+                    "matchGroupPaths": [],
+                    "accumulators": [
+                        {
+                            "operation": "BaseAdd",
+                            "value": 0.5,
+                            "multiplyPer": []
+                        }
+                    ],
+                    "setValue": ""
                 }
             ]
         },
@@ -438,6 +526,39 @@
                     "toolLevel": 1.0,
                     "harvestSpeed": 1.0,
                     "reach": 1.0
+                },
+                {
+                    "actionType": "EjectCasing",
+                    "delay" : 5,
+                    "duration": 1.5,
+                    "sounds": [],
+                    "itemStack": "",
+                    "scopeOverlay": "",
+                    "anim": "shoot"
+                }
+            ],
+            "modifiers": [
+                {
+                    "stat": "casing_eject_point",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "casing_eject"
+                },
+                {
+                    "stat": "casing_eject_direction",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "casing_eject_direction"
+                },
+                {
+                    "stat": "casing_eject_speed",
+                    "matchGroupPaths": [],
+                    "accumulators": [                      {
+                        "operation": "BaseAdd",
+                        "value": 0.5,
+                        "multiplyPer": []
+                    }],
+                    "setValue": ""
                 }
             ]
         },
@@ -549,7 +670,7 @@
             "key": "primary",
             "matchByNames": [],
             "matchByTags": [
-                "createloveandwar:chassepot"
+                "createloveandwar:chassepot_c"
             ],
             "baseCostToSwap": 0
         }
@@ -599,5 +720,5 @@
     },
     "modelParts": [],
     "animationSet": "createloveandwar:bolt_action_single_shot",
-    "particleCount": 50
+    "particleCount": 2
 }

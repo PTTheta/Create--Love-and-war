@@ -50,7 +50,7 @@
                     ]
                 }
             ],
-            "penetrationPower": 0.0
+            "penetrationPower": 2.0
         }
     ],
     "projectiles": [],

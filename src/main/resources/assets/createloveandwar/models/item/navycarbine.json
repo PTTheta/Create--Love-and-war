@@ -4686,6 +4686,34 @@
         90.0,
         0.0
       ]
+    },
+    {
+      "name": "casing_eject",
+      "attachTo": "body",
+      "offset": [
+        -2.75,
+        3.5,
+        1.0
+      ],
+      "euler": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "casing_eject_direction",
+      "attachTo": "casing_eject",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "euler": [
+        90.0,
+        0.0,
+        0.0
+      ]
     }
   ]
 }

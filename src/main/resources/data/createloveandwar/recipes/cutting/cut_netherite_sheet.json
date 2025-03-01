@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient":
+  {
+    "tag": "forge:plates/netherite"
+  },
+  "result": "createloveandwar:cut_netherite_sheet"
+}

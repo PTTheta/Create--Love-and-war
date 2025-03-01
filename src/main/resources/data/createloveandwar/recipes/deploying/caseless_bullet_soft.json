@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createloveandwar:propellant_moulded"
+    },
+    {
+      "tag": "forge:nuggets/copper"
+    }
+  ],
+  "results": [
+    {
+      "item": "createloveandwar:caseless_bullet_soft"
+    }
+  ]
+}

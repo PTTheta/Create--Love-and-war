@@ -414,6 +414,59 @@
                     "toolLevel": 1.0,
                     "harvestSpeed": 1.0,
                     "reach": 1.0
+                },
+                {
+                    "actionType": "PlaySound",
+                    "delay" : 3,
+                    "duration": 0.0,
+                    "sounds": [
+                        {
+                            "sound": "flansmod:bullet_drop_tinkle",
+                            "length": 0.0,
+                            "minPitchMultiplier": 0.8333333,
+                            "maxPitchMultiplier": 1.25,
+                            "minVolume": 1.0,
+                            "maxVolume": 1.0,
+                            "maxRange": 100.0,
+                            "LODs": []
+                        }
+                    ],
+                    "itemStack": "",
+                    "scopeOverlay": "",
+                    "anim": ""
+                },
+                {
+                    "actionType": "EjectCasing",
+                    "delay" : 3,
+                    "duration": 1.5,
+                    "sounds": [],
+                    "itemStack": "",
+                    "scopeOverlay": "",
+                    "anim": "shoot"
+                }
+            ],
+            "modifiers": [
+                {
+                    "stat": "casing_eject_point",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "casing_eject"
+                },
+                {
+                    "stat": "casing_eject_direction",
+                    "matchGroupPaths": [],
+                    "accumulators": [],
+                    "setValue": "casing_eject_direction"
+                },
+                {
+                    "stat": "casing_eject_speed",
+                    "matchGroupPaths": [],
+                    "accumulators": [                      {
+                        "operation": "BaseAdd",
+                        "value": 0.5,
+                        "multiplyPer": []
+                    }],
+                    "setValue": ""
                 }
             ]
         },
@@ -590,5 +643,6 @@
     },
     "modelParts": [],
     "animationSet": "createloveandwar:martini_action",
-    "particleCount": 50
+    "particleCount": 5,
+    "casingModel": "createloveandwar:effects/casing_shotgun"
 }

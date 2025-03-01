@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createloveandwar:forgotten_gunsmith_parts"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "flansmod:magazine_upgrade"
+  },
+  "show_notification": true
+}

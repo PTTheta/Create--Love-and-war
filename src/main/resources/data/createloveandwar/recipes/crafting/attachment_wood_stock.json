@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/iron"
+    },
+    "G": {
+      "item": "createloveandwar:stock_wood"
+    }
+  },
+  "pattern": [
+    "   ",
+    "NG ",
+    "   "
+  ],
+  "result": {
+    "item": "createloveandwar:attachment_wood_stock"
+  },
+  "show_notification": true
+}

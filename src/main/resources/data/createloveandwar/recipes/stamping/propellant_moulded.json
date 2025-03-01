@@ -1,0 +1,13 @@
+{
+  "type":"createloveandwar:stamping",
+  "input": {
+    "item": "createloveandwar:propellant_sheet"
+  },
+  "template": {
+    "item": "createloveandwar:template_propellant_block"
+  },
+  "result": {
+    "item": "createloveandwar:propellant_moulded",
+    "count": 2
+  }
+}
