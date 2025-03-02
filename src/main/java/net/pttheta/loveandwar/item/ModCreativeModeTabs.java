@@ -331,6 +331,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.G11K2.get());
                         pOutput.accept(ModItems.AAI_ACR.get());
                         pOutput.accept(ModItems.SA81.get());
+                        pOutput.accept(ModItems.CAWS.get());
                         pOutput.accept(ModItems.VETTERLI.get());
                         pOutput.accept(ModItems.VETTERLIVITALI.get());
                         pOutput.accept(ModItems.P53_ENFIELD.get());

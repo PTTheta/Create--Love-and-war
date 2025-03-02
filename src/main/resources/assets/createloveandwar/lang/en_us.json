@@ -434,7 +434,9 @@
   "item.createloveandwar.stg57": "Stgw. 57",
   "paintjob.createloveandwar.stg57_brass": "Brass",
   "item.createloveandwar.g11k2": "G11K2",
+  "item.createloveandwar.caws": "H&K CAWS",
   "item.createloveandwar.aai_acr": "AAI ACR '89",
+
   "item.createloveandwar.sa81": "SA-81 Krasa",
   "item.createloveandwar.gepard_m3": "Gepard M3",
   "item.createloveandwar.pvg43": "37mm Granatgevär fm/43",
@@ -478,6 +480,7 @@
   "magazine.createloveandwar.gyrojet_carbine_mag": "7-Round Detachable Magazine",
   "magazine.createloveandwar.g11_mag": "45 Round Magazine",
   "magazine.createloveandwar.g11_mag_gyro": "Gyrojet Conversion",
+  "magazine.createloveandwar.caws_mag": "10 Round Magazine",
   "magazine.createloveandwar.sa81_mag": "20 Round Magazine",
   "magazine.createloveandwar.sa81_mag_gyro": "Gyrojet Conversion",
   "magazine.createloveandwar.aai_acr_mag": "36 Round Caseless Magazine",

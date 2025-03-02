@@ -24,7 +24,7 @@
                                     "accumulators": [
                                         {
                                             "operation": "StackablePercentage",
-                                            "value": 40.0,
+                                            "value": -67.5,
                                             "multiplyPer": []
                                         }
                                     ],
