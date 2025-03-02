@@ -317,6 +317,7 @@ public class ModItems {
     public static final RegistryObject<Item> SA81 = FlansMod.Gun(ITEMS, LoveAndWarMod.MODID, "sa81");
     public static final RegistryObject<Item> AAI_ACR = FlansMod.Gun(ITEMS, LoveAndWarMod.MODID, "aai_acr");
     public static final RegistryObject<Item> CAWS = FlansMod.Gun(ITEMS, LoveAndWarMod.MODID, "caws");
+    public static final RegistryObject<Item> ARM_PISTOL = FlansMod.Gun(ITEMS, LoveAndWarMod.MODID, "arm_pistol");
 
 
     public static final RegistryObject<Item> VETTERLI = FlansMod.Gun(ITEMS, LoveAndWarMod.MODID, "vetterli");
