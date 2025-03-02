@@ -181,8 +181,13 @@ dependencies {
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     testAnnotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
+    implementation fg.deobf("top.theillusivec4.curios:curios-forge:5.3.1+1.20.1:api")
+    //implementation fg.deobf("top.theillusivec4.curios:curios-forge:5.3.1+1.20.1")
+
+    implementation fg.deobf("curse.maven:back-weapon-slot-959303:5836888")
+
     //implementation fg.deobf("maven.modrinth:ZM3tt6p1:WNZ4u6ej") //CDG
-    //implementation fg.deobf("maven.modrinth:h1E7sQNL:WOre3nll") //CPM
+    implementation fg.deobf("maven.modrinth:h1E7sQNL:WOre3nll") //CPM
     //implementation fg.deobf("maven.modrinth:YP9DjOvN:e3zKxfxc") //Tetra
     //implementation fg.deobf("maven.modrinth:HWHl8Evb:PI1cIWsh") //Mutil
 }
