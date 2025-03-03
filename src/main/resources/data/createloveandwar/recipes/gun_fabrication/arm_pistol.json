@@ -36,6 +36,14 @@
       "tag": "flansmod:grip",
       "min": 2,
       "max": 99
+    },
+    {
+      "type": "flansmod:stacked_vanilla",
+      "items":
+      [
+        "createloveandwar:attachment_laser_scope"
+      ],
+      "count": 1
     }
   ],
   "result": {

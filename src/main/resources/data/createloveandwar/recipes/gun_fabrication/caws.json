@@ -43,6 +43,14 @@
       "tag": "flansmod:stock",
       "min": 3,
       "max": 99
+    },
+    {
+      "type": "flansmod:stacked_vanilla",
+      "items":
+      [
+        "createloveandwar:optical_scope"
+      ],
+      "count": 1
     }
   ],
   "result": {
