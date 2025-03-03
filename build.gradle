@@ -175,7 +175,7 @@ dependencies {
 
     //implementation fg.deobf("curse.maven:advanced-xray-256256:4840340")
 
-    implementation fg.deobf("com.flansmod:flansmod:1.20.1-0.4.309")
+    implementation fg.deobf("com.flansmod:flansmod:1.20.1-0.4.311")
     //implementation fg.deobf("curse.maven:venders-game-a-flans-mod-content-pack-943998:5448950")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
