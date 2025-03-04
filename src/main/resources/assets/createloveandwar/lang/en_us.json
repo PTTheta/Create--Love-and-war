@@ -57,6 +57,7 @@
   "item.createloveandwar.tungsten_nugget" : "Tungsten Nugget",
   "item.createloveandwar.tungsten_sheet" : "Tungsten Sheet",
   "item.createloveandwar.raw_tungsten" : "Raw Tungsten",
+  "item.createloveandwar.crushed_tungsten" : "Crushed Tungsten",
   "block.createloveandwar.tungsten_block" : "Block of Tungsten",
   "block.createloveandwar.raw_tungsten_block" : "Block of Raw Tungsten",
   "block.createloveandwar.deepslate_tungsten_ore" : "Deepslate Tungsten ore",
@@ -444,7 +445,7 @@
   "paintjob.createloveandwar.pvg43_brass": "Brass",
   "item.createloveandwar.wz35": "Wz.35",
   "paintjob.createloveandwar.wz35": "Brass",
-  "item.createloveandwar.wz38": "Wz.38",
+  "item.createloveandwar.wz38": "Wz.38M",
   "paintjob.createloveandwar.wz38": "Brass",
 
   "magazine.createloveandwar.mars_mag": "7 Round Magazine",

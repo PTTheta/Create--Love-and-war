@@ -44,6 +44,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.TUNGSTEN_NUGGET.get());
                         pOutput.accept(ModItems.TUNGSTEN_SHEET.get());
                         pOutput.accept(ModItems.RAW_TUNGSTEN.get());
+                        pOutput.accept(ModItems.CRUSHED_TUNGSTEN.get());
 
                         pOutput.accept(ModItems.TUNGSTEN_SWORD.get());
                         pOutput.accept(ModItems.TUNGSTEN_PICKAXE.get());

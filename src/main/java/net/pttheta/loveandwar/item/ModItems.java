@@ -33,6 +33,7 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_SHEET = ITEMS.register("netherite_sheet", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CUT_NETHERITE_SHEET = ITEMS.register("cut_netherite_sheet", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_TUNGSTEN = ITEMS.register("raw_tungsten", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHED_TUNGSTEN = ITEMS.register("crushed_tungsten", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CIGARETTE = ITEMS.register("cigarette", () -> new Item(new Item.Properties().food(ModFoods.CIGARETTE)));
     public static final RegistryObject<Item> FORGOTTEN_GUNSMITH_PARTS = ITEMS.register("forgotten_gunsmith_parts", () -> new Item(new Item.Properties().food(ModFoods.CIGARETTE)));
 
